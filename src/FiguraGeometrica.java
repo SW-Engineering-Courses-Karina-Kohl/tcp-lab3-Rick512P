@@ -1,4 +1,4 @@
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica implements CalculosGeometricos{
     private String Cor;
     private String ID;
     private static int TotalFiguras = 0;
