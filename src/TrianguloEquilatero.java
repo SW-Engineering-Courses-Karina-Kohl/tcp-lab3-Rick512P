@@ -26,7 +26,7 @@ public class TrianguloEquilatero extends FiguraGeometrica implements CalculosGeo
     public String getInfo(){
         return "Tipo: Triangulo Equilátero, " + super.getInfo();
     }
-    public String GetDetales(){
+    public String getDetalhes(){
         String Infos = getInfo();
         return Infos + ", Número de Lados: 3, Tamanho do(s) Lados: " + Lado;
     }

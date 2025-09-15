@@ -20,5 +20,5 @@ public abstract class FiguraGeometrica {
     public String getInfo() {
         return "Cor: " + Cor + ", ID: " + ID;
     }
-    public abstract String GetDetales();
+    public abstract String getDetalhes();
 }
